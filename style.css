@@ -1,0 +1,80 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4e4e4e;
+    margin: 0;
+}
+
+.calculadora {
+    background-color: #333;
+    border-radius: 25px;    
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    width: 320px;
+}
+
+#display {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: right;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #505050;
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase; 
+    padding: 20px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.button-silver {
+    background-color: #a6a6a6;
+}
+
+.button-orange {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.button-orange:hover{
+    background: #c57300;
+}
+
+button.igual {
+    background-color: #ff9500;
+    grid-row: span 2;
+    height: 100%; 
+    border-radius: 25px;
+    grid-row: span 3
+}
+
+button.zero {
+    grid-column: span 2;
+    border-radius: 50px;
+    grid-column: span 2;
+}
+
+button.ponto {
+    border-radius: 50%;
+}
