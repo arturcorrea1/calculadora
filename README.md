@@ -1,6 +1,6 @@
 # Projeto de Calculadora
 
-### Desevolvido durante os dias 24 e 25/05/24 ao decorrar das aulas de técnico.
+### Desevolvido durante os dias 24 e 25 de maio de 2024 ao decorrar das aulas de técnico.
 
 O projeto consiste em uma calculadora funcional com HTML, JavaScript e CSS funcionais e de acordo com o projeto enviado pelo regente.
 
